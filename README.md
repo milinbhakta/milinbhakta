@@ -14,24 +14,25 @@
 ```javascript
 const milind = {
     pronouns: "He" | "Him",
-    code: ["C#", "Java", "JavaScript", "Python", "Dart"],
-    askMeAbout: ["Web Development", "Iot", "Videography"],
+    code: ["C#", "Java", "JavaScript", "Python"],
+    askMeAbout: ["Web Development", "Iot"],
     technologies: {
         mobileApp: ["Android App", "iPhone App"],
         frontEnd: {
             js: ["React", "Angular"],
-            css: ["materialize", "bootstrap", "tailwind css"]
+            css: ["materialize", "bootstrap", "tailwind css", "pico css"]
+            buildTools: ["vite"]
         },
         backEnd: {
             js: ["node", "express", "hapi"],
             python: ["flask"]
         },
-        devOps: ["AWS", "Docker🐳", "gitlab"],
-        databases: ["mongo", "MySql", "sqlite", "Oracle"],
-        misc: ["Firebase", "open-cv"]
+        devOps: ["AWS", "Docker🐳", "gitlab", "github actions"],
+        databases: ["Postgres", "mongo", "MySql", "sqlite", "Oracle"],
+        misc: ["Firebase", "open-cv", "htmx"]
     },
-    architecture: ["Serverless Architecture", "Progressive web applications", "Single page applications"],
-    currentProject: "I am developing Family Tree using d3.js in vanilla Javascript",
+    architecture: ["Client Server Architecture", "Serverless Architecture", "Progressive web applications", "Single page applications"],
+    currentProject: "I am developing multi-platform clipRust app with rust and tauri",
     funFact: "There are two ways to write error-free programs; only the third one works"
 };
 ```
