@@ -17,7 +17,6 @@ const milind = {
     code: ["C#", "Java", "JavaScript", "Python"],
     askMeAbout: ["Web Development", "Iot"],
     technologies: {
-        mobileApp: ["Android App", "iPhone App"],
         frontEnd: {
             js: ["React", "Angular"],
             css: ["materialize", "bootstrap", "tailwind css", "pico css"]
