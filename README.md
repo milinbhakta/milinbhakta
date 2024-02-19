@@ -19,7 +19,7 @@ const milind = {
     technologies: {
         frontEnd: {
             js: ["React", "Angular"],
-            css: ["materialize", "bootstrap", "tailwind css", "pico css"]
+            css: ["materialize", "bootstrap", "tailwind css", "pico css"],
             buildTools: ["vite"]
         },
         backEnd: {
