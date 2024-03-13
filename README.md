@@ -24,7 +24,6 @@ const milind = {
         },
         backEnd: {
             js: ["node", "express", "hapi"],
-            python: ["flask"]
         },
         devOps: ["AWS", "Docker🐳", "gitlab", "github actions"],
         databases: ["Postgres", "mongo", "MySql", "sqlite", "Oracle"],
