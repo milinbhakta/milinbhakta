@@ -13,9 +13,8 @@
 
 ```javascript
 const milind = {
-    pronouns: "He" | "Him",
-    code: ["C#", "Java", "JavaScript", "Python"],
-    askMeAbout: ["Web Development", "Iot"],
+    code: ["C#", "JavaScript", "Python"],
+    askMeAbout: ["Full Stack Development"],
     technologies: {
         frontEnd: {
             js: ["React", "Angular"],
@@ -24,13 +23,14 @@ const milind = {
         },
         backEnd: {
             js: ["node", "express", "hapi"],
+            python: ["FastAPI"]
         },
-        devOps: ["AWS", "Docker🐳", "gitlab", "github actions"],
+        devOps: ["Azure", "Docker🐳", "gitlab", "github actions"],
         databases: ["Postgres", "mongo", "MySql", "sqlite", "Oracle"],
-        misc: ["Firebase", "open-cv", "htmx"]
+        misc: ["FHIR", "Firebase", "open-cv", "htmx"]
     },
     architecture: ["Client Server Architecture", "Serverless Architecture", "Progressive web applications", "Single page applications"],
-    currentProject: "I am developing multi-platform clipRust app with rust and tauri",
+    currentProject: "",
     funFact: "There are two ways to write error-free programs; only the third one works"
 };
 ```
